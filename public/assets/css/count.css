@@ -35,7 +35,7 @@ h1{
 }
 
 /* ボタン共通 */
-input{
+input.cal{
     border: 0;
     background: none;
     display: block;
@@ -65,4 +65,26 @@ input[value="+"]{
 input[value="-"]{
     color: #f9f9f9;
     background: #F44336;
+}
+
+input[value="clear"]{
+    color: #ffffff;
+    background: green;
+}
+
+input[value="×2"]{
+    color: #ffffff;
+    background: orange;
+}
+
+input[value="÷2"]{
+    color: #ffffff;
+    background: purple;
+}
+
+.form{
+    text-align: center;
+}
+.button{
+    size: 10px;
 }
